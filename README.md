@@ -22,6 +22,11 @@ Welcome to the Text and Image Processing App documentation. This Streamlit app a
 
 - The Text Data Processing page allows users to enter text data and generate processed text.
 
+## Run
+    ```
+    streamlit run app.py
+    ```
+
 
 ## License
 
