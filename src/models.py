@@ -12,7 +12,7 @@ def generate_text(prompt):
         model = genai.GenerativeModel('gemini-pro')
         response = model.generate_content(prompt)
 
-        return response. Text
+        return response.Text
     except Exception as e:
         # Handle the error appropriately
         print(f"An error occurred: {e}")
